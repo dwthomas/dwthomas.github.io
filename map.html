@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb13e824f64c438c9f884ad4b0c16235 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.4.2/Control.FullScreen.min.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_bb13e824f64c438c9f884ad4b0c16235" ></div>
+        
+</body>
+<script>    
+    
+            var map_bb13e824f64c438c9f884ad4b0c16235 = L.map(
+                "map_bb13e824f64c438c9f884ad4b0c16235",
+                {
+                    center: [21.431505581395356, -157.81211906976742],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ade7e20045714bc4ab8fb81f18ebe7ee = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var marker_704d9a8895c44b358bd07fb8d7a7a6f1 = L.marker(
+                [21.43182, -157.8112],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_56b65229a91a4ed890737e2a59753cea = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:yellow;\"\u003eA1\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_704d9a8895c44b358bd07fb8d7a7a6f1.setIcon(div_icon_56b65229a91a4ed890737e2a59753cea);
+        
+    
+        var popup_298137984e3a412680a873cdb30462f5 = L.popup({"maxWidth": 450});
+
+        
+            var html_4e6f2171b9124ee78ecbcf8730135186 = $(`<div id="html_4e6f2171b9124ee78ecbcf8730135186" style="width: 100.0%; height: 100.0%;"><strong>Auwai 1</strong><br>2019-08-14<br>Tilapia sp..1<br><br>2019-10-09<br>weather loach (aquarium)<br>Tilapia sp..1<br>Nile tilapia<br>whitespotted clarias (introduced catfish).1<br>Cory catfish (aquarium).1<br>Muscovy duck<br></div>`)[0];
+            popup_298137984e3a412680a873cdb30462f5.setContent(html_4e6f2171b9124ee78ecbcf8730135186);
+        
+
+        marker_704d9a8895c44b358bd07fb8d7a7a6f1.bindPopup(popup_298137984e3a412680a873cdb30462f5)
+        ;
+
+        
+    
+    
+            var marker_850797ac765344bebb926334229ce5e8 = L.marker(
+                [21.4383, -157.8109],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_b959c2c287b24846a9ca0c3ab8d0f8d5 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:cyan;\"\u003eW2\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_850797ac765344bebb926334229ce5e8.setIcon(div_icon_b959c2c287b24846a9ca0c3ab8d0f8d5);
+        
+    
+        var popup_17e47cc8d50c44959ae6e4b4e8d7d3b2 = L.popup({"maxWidth": 450});
+
+        
+            var html_de03df96a2fa4f628869184aa7cea5e8 = $(`<div id="html_de03df96a2fa4f628869184aa7cea5e8" style="width: 100.0%; height: 100.0%;"><strong>Wai 2</strong><br>2019-08-14<br>Tilapia sp..1<br>blackchin tilapia.1<br>Poecilia sp.<br>Goby2<br><br>2019-10-09<br>blackchin tilapia.1<br>Tilapia sp..1<br>Cory catfish (aquarium).1<br>Goby5<br>blackchin tilapia<br>Ambiguous Freshwater Aquarium Catfish.1<br>Poecilia reticulata<br>whitespotted clarias (introduced catfish).1<br>mallard ducks<br>Cory catfish (aquarium)<br>Poecilia sp.<br>Goby2<br></div>`)[0];
+            popup_17e47cc8d50c44959ae6e4b4e8d7d3b2.setContent(html_de03df96a2fa4f628869184aa7cea5e8);
+        
+
+        marker_850797ac765344bebb926334229ce5e8.bindPopup(popup_17e47cc8d50c44959ae6e4b4e8d7d3b2)
+        ;
+
+        
+    
+    
+            var marker_b706a053269547afb6a0bcc7ccdf2b18 = L.marker(
+                [21.42845, -157.81372],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_fe92f52e5f9b4dcca2bb5bf869bbc4f5 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:red;\"\u003eHT\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_b706a053269547afb6a0bcc7ccdf2b18.setIcon(div_icon_fe92f52e5f9b4dcca2bb5bf869bbc4f5);
+        
+    
+        var popup_d0f7af26e86e406babbf9d42aa12a0d9 = L.popup({"maxWidth": 450});
+
+        
+            var html_0ee7091db4d344f48f7cdc8d0444e614 = $(`<div id="html_0ee7091db4d344f48f7cdc8d0444e614" style="width: 100.0%; height: 100.0%;"><strong>Haptuk</strong><br>2019-08-14<br>Ambiguous Freshwater Aquarium Catfish.1<br>Goby5<br>whitespotted clarias (introduced catfish).1<br>O'opu nakea<br>Another Ambiguous Freshwater Aquarium Catfish<br>convict cichlid (aquarium fish)<br>Goby4<br>Cory catfish (aquarium).1<br>Tilapia sp..1<br><br>2019-10-09<br>Ambiguous Freshwater Aquarium Catfish.1<br>Another Ambiguous Freshwater Aquarium Catfish<br>Cory catfish (aquarium).1<br>convict cichlid (aquarium fish)<br>mallard ducks<br>Common carp<br>green swordtail<br>Pig<br></div>`)[0];
+            popup_d0f7af26e86e406babbf9d42aa12a0d9.setContent(html_0ee7091db4d344f48f7cdc8d0444e614);
+        
+
+        marker_b706a053269547afb6a0bcc7ccdf2b18.bindPopup(popup_d0f7af26e86e406babbf9d42aa12a0d9)
+        ;
+
+        
+    
+    
+            var marker_698e01e3cf624ebb97b21329c6803907 = L.marker(
+                [21.439965, -157.80881],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_a7c05340850b423ea7b69009156249c9 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:cyan;\"\u003eSM\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_698e01e3cf624ebb97b21329c6803907.setIcon(div_icon_a7c05340850b423ea7b69009156249c9);
+        
+    
+        var popup_3bc4d78a77274ec88793dcb6e4882885 = L.popup({"maxWidth": 450});
+
+        
+            var html_0bed2e188f2142f49aa46375d9a305ac = $(`<div id="html_0bed2e188f2142f49aa46375d9a305ac" style="width: 100.0%; height: 100.0%;"><strong>Stream Mouth</strong><br>2019-08-14<br>Goby1<br>blackchin tilapia.1<br>Tilapia sp..1<br>āholehole<br>Goby3<br>'Ama'Ama <br>Poecilia sp.<br><br>2019-10-09<br>Cocos frill goby<br>Perch<br>Kaku<br></div>`)[0];
+            popup_3bc4d78a77274ec88793dcb6e4882885.setContent(html_0bed2e188f2142f49aa46375d9a305ac);
+        
+
+        marker_698e01e3cf624ebb97b21329c6803907.bindPopup(popup_3bc4d78a77274ec88793dcb6e4882885)
+        ;
+
+        
+    
+    
+            var marker_d09ff24a868f47129b4288973b9ff1cf = L.marker(
+                [21.40926, -157.82335],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_82de04c86f87423b94b549c254f8c9ca = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:red;\"\u003ePH\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_d09ff24a868f47129b4288973b9ff1cf.setIcon(div_icon_82de04c86f87423b94b549c254f8c9ca);
+        
+    
+        var popup_c5b27628ef0b482fb31de7cec1c0a915 = L.popup({"maxWidth": 450});
+
+        
+            var html_fc310fd42e9242c09e8449b5751b6161 = $(`<div id="html_fc310fd42e9242c09e8449b5751b6161" style="width: 100.0%; height: 100.0%;"><strong>Papahana</strong><br>2019-08-14<br>Ambiguous Freshwater Aquarium Catfish.1<br>O'opu nakea<br><br>2019-10-09<br>Ambiguous Freshwater Aquarium Catfish.1<br>Ambiguous Freshwater Aquarium Catfish<br></div>`)[0];
+            popup_c5b27628ef0b482fb31de7cec1c0a915.setContent(html_fc310fd42e9242c09e8449b5751b6161);
+        
+
+        marker_d09ff24a868f47129b4288973b9ff1cf.bindPopup(popup_c5b27628ef0b482fb31de7cec1c0a915)
+        ;
+
+        
+    
+    
+            var marker_fb872427b6c5482bb20481521aaf69d8 = L.marker(
+                [21.43729, -157.80583],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_be57cdffafcc46f1af612d564059df62 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:cyan;\"\u003eMN\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_fb872427b6c5482bb20481521aaf69d8.setIcon(div_icon_be57cdffafcc46f1af612d564059df62);
+        
+    
+        var popup_cf2612101a224939b9ba51351fbbed29 = L.popup({"maxWidth": 450});
+
+        
+            var html_acf884a66b7342d699e802a7def76002 = $(`<div id="html_acf884a66b7342d699e802a7def76002" style="width: 100.0%; height: 100.0%;"><strong>Makaha Nui</strong><br>2019-08-14<br>domestic cat<br>Lai<br><br>2019-10-09<br>goldspot herring<br>Iao<br></div>`)[0];
+            popup_cf2612101a224939b9ba51351fbbed29.setContent(html_acf884a66b7342d699e802a7def76002);
+        
+
+        marker_fb872427b6c5482bb20481521aaf69d8.bindPopup(popup_cf2612101a224939b9ba51351fbbed29)
+        ;
+
+        
+    
+    
+            var marker_e539fc466cc44bcb968db436f882c970 = L.marker(
+                [21.4369, -157.81302],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_2829614f0868449f8a319be7dd22b341 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:yellow;\"\u003eNB\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_e539fc466cc44bcb968db436f882c970.setIcon(div_icon_2829614f0868449f8a319be7dd22b341);
+        
+    
+        var popup_99828647cf6f44cc8b62671bfb9d3012 = L.popup({"maxWidth": 450});
+
+        
+            var html_983bebf501354d88accf6029903d4c74 = $(`<div id="html_983bebf501354d88accf6029903d4c74" style="width: 100.0%; height: 100.0%;"><strong>New Bridge</strong><br>2019-08-14<br>blackchin tilapia.1<br>Tilapia sp..1<br>mallard ducks<br>whitespotted clarias (introduced catfish).1<br>Poecilia sp.<br>Tilapia sp.<br>Goby6<br><br>2019-10-09<br>blackchin tilapia.1<br>Tilapia sp..1<br>whitespotted clarias (introduced catfish).1<br>Cory catfish (aquarium).1<br>Poecilia sp.<br>mallard ducks<br>weather loach (aquarium)<br>Goby5<br>whitespotted clarias (introduced catfish)<br>Goby2<br>Pig<br></div>`)[0];
+            popup_99828647cf6f44cc8b62671bfb9d3012.setContent(html_983bebf501354d88accf6029903d4c74);
+        
+
+        marker_e539fc466cc44bcb968db436f882c970.bindPopup(popup_99828647cf6f44cc8b62671bfb9d3012)
+        ;
+
+        
+    
+    
+            var marker_f24bada763b847b1b5ff55a296f4dd99 = L.marker(
+                [21.42368, -157.81068],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_7c311cb3f0de46a3ba98e769767bc82f = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:red;\"\u003eAB\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_f24bada763b847b1b5ff55a296f4dd99.setIcon(div_icon_7c311cb3f0de46a3ba98e769767bc82f);
+        
+    
+        var popup_1c55fe3f804443c39e45a67f323a4712 = L.popup({"maxWidth": 450});
+
+        
+            var html_adf0402cb1ab4e2096010b7288dacb52 = $(`<div id="html_adf0402cb1ab4e2096010b7288dacb52" style="width: 100.0%; height: 100.0%;"><strong>Alaloa Bridge</strong><br>2019-08-14<br>Ambiguous Freshwater Aquarium Catfish.1<br>Cane Toad<br><br>2019-10-09<br>Ambiguous Freshwater Aquarium Catfish.1<br>Another Ambiguous Freshwater Aquarium Catfish<br>whitespotted clarias (introduced catfish).1<br>Poecilia sp.<br>Poecilia reticulata<br>Cory catfish (aquarium).1<br>convict cichlid (aquarium fish)<br>rat<br>spotted dove<br></div>`)[0];
+            popup_1c55fe3f804443c39e45a67f323a4712.setContent(html_adf0402cb1ab4e2096010b7288dacb52);
+        
+
+        marker_f24bada763b847b1b5ff55a296f4dd99.bindPopup(popup_1c55fe3f804443c39e45a67f323a4712)
+        ;
+
+        
+    
+    
+            var marker_80edaa87fd60417e8598f65f6f2bd2b3 = L.marker(
+                [21.43201, -157.81187],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_eef80866aa1e441d88d329b17b354357 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:yellow;\"\u003eDL\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_80edaa87fd60417e8598f65f6f2bd2b3.setIcon(div_icon_eef80866aa1e441d88d329b17b354357);
+        
+    
+        var popup_2cf32d9e30d34880aa7c78b659206fd6 = L.popup({"maxWidth": 450});
+
+        
+            var html_d5131898eb2e4e33a7d390684182fe51 = $(`<div id="html_d5131898eb2e4e33a7d390684182fe51" style="width: 100.0%; height: 100.0%;"><strong>DS Loi 1</strong><br>2019-08-14<br>blackchin tilapia.1<br>Nile tilapia<br>Poecilia sp.<br>Tilapia sp..1<br>whitespotted clarias (introduced catfish).1<br>Cory catfish (aquarium).1<br><br>2019-10-09<br>Nile tilapia<br>Poecilia sp.<br>Tilapia sp..1<br>blackchin tilapia.1<br></div>`)[0];
+            popup_2cf32d9e30d34880aa7c78b659206fd6.setContent(html_d5131898eb2e4e33a7d390684182fe51);
+        
+
+        marker_80edaa87fd60417e8598f65f6f2bd2b3.bindPopup(popup_2cf32d9e30d34880aa7c78b659206fd6)
+        ;
+
+        
+    
+    
+            var marker_be591ce8cdf3478a8aa74656130f4410 = L.marker(
+                [21.43578, -157.81171],
+                {}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+    
+            var div_icon_3ff1183605f74fb680817905164a0a44 = L.divIcon({"className": "empty", "html": "\u003ch3 style=\"color:yellow;\"\u003eWL\u003c/h3\u003e", "iconAnchor": [20, 20]});
+            marker_be591ce8cdf3478a8aa74656130f4410.setIcon(div_icon_3ff1183605f74fb680817905164a0a44);
+        
+    
+        var popup_9e8fabe9a80e4dcbad412f855202997c = L.popup({"maxWidth": 450});
+
+        
+            var html_4443f1fc2c1d4a149fe42cd9b9eaa3ed = $(`<div id="html_4443f1fc2c1d4a149fe42cd9b9eaa3ed" style="width: 100.0%; height: 100.0%;"><strong>Wetland</strong><br>2019-08-14<br>Tilapia sp..1<br>blackchin tilapia.1<br>whitespotted clarias (introduced catfish).1<br>Goby2<br>mallard ducks<br>Poecilia sp.<br>Cory catfish (aquarium).1<br><br>2019-10-09<br>blackchin tilapia.1<br>Cory catfish (aquarium).1<br>Tilapia sp..1<br>Poecilia sp.<br>weather loach (aquarium)<br>Poecilia sp. <br>mallard ducks<br></div>`)[0];
+            popup_9e8fabe9a80e4dcbad412f855202997c.setContent(html_4443f1fc2c1d4a149fe42cd9b9eaa3ed);
+        
+
+        marker_be591ce8cdf3478a8aa74656130f4410.bindPopup(popup_9e8fabe9a80e4dcbad412f855202997c)
+        ;
+
+        
+    
+    
+            L.control.fullscreen(
+                {"forceSeparateButton": false, "position": "topright", "title": "Full Screen", "titleCancel": "Exit Full Screen"}
+            ).addTo(map_bb13e824f64c438c9f884ad4b0c16235);
+        
+</script>
