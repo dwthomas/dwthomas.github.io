@@ -4,6 +4,13 @@
 <head>
   <meta charset="utf-8" />
   <title>Devin Wild Thomas's Home Page</title>
+  <style type="text/css">
+    .e-mail:before {
+        content: attr(data-website) "\0040" attr(data-user);
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+    </style>
 </head>
 
 <body style="background-color:rgb(255, 255, 255);">
@@ -18,6 +25,8 @@
                     alt="Pic of Devin" />  </div>
                 <div style="margin-left: 170px;"> <h1>Devin Wild Thomas</h1> 
                 PhD Candidate at the University of New Hampshire
+                <p><span class="e-mail" data-user="samoht.nived" data-website="ude.hnu"></span></div>
+                </p>
             </div>                   
             <p>
             I study heuristic search and situated planning.
